@@ -8,6 +8,8 @@ router.get('/', function(req, res, next) {
   console.log('main commit 01')
 
   console.log('branch B update 01 ')
+
+  console.log('메인에서 브랜치B를 pull 한 경우 (rebase) 기반')
 });
 
 module.exports = router;
