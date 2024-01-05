@@ -9,6 +9,8 @@ router.get('/', function(req, res, next) {
   console.log('B 브랜치에서 모든 내용을 다 지우고 커밋 / 기타 작업 진행하지 않은 상태')
 
   console.log('origin/main 을 머지한 결과')
+
+  console.log('origin/branch-B가 메인과 머지한 후  다시 branch-B를 메인과 머지한 결과')
 });
 
 module.exports = router;
