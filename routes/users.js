@@ -11,6 +11,12 @@ router.get('/', function(req, res, next) {
   console.log('origin/main 을 머지한 결과')
 
   console.log('origin/branch-B가 메인과 머지한 후  다시 branch-B를 메인과 머지한 결과')
+  console.log('메인에서 브랜치B를 pull 한 경우 (rebase) 기반')
+  console.log('branch A update 01')
+
+  console.log('메인에서 브랜치A를 merge / conflict 발생으로 병합 과정을 거침')
+
+  console.log('브랜치A에서 메인을 머지한 상태에 해당 로그를 추가')
 });
 
 module.exports = router;
