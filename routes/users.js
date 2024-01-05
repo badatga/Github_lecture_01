@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 
   console.log('main commit 01')
 
-  console.log('branch A')
+  console.log('branch A ')
 });
 
 module.exports = router;
